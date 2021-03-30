@@ -1,3 +1,5 @@
+#This is a basic Python program designed to ask the user question, accept inputs and perform simple calculations.
+
 ADULT_TICKETS = 7.25 #Initial value for tickets
 CHILD_TICKETS = 3.75
 SENIOR_TICKETS = 4.50
@@ -32,8 +34,10 @@ One = float (ADULT_TICKETS * numAdults)
 Two = float (CHILD_TICKETS * numChildren)
 Three = float (SENIOR_TICKETS * numSeniors)
 
-totalCost = float ((One + Two + Three) / FEES) #This adds the cost, and takes fees off of it
+#totalCost = float ((One + Two + Three) / FEES) #This adds the cost, and takes fees off of it
+#The total cost is not calculated properly. totalcost = totalcost + totalcost*FEES
 
+totalCost = float ((One + Two + Three) + (One + Two + Three) * FEES)
 
 print ("Your total cost is: $", round(totalCost, 2)) #This displays the final cost, and also rounds it to 2 decimal places
 
