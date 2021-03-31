@@ -1,5 +1,7 @@
-#This is a basic Python program designed to ask the user question, accept inputs and perform simple calculations.
-
+"""
+Code written by Luke Carlson
+This is a basic Python program designed to ask the user question, accept inputs and perform simple calculations.
+"""
 ADULT_TICKETS = 7.25 #Initial value for tickets
 CHILD_TICKETS = 3.75
 SENIOR_TICKETS = 4.50
